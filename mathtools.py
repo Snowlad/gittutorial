@@ -24,7 +24,6 @@ def arithmetic(a, difference, n):
     sequence = [a+difference*x for x in range(n)]
     #Calculates its sum
     return sum(sequence)
-=======
 def fib(n):
     ''' Calculates the n value of the fibonacci sequence'''
     if n == 0:
